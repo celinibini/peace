@@ -1,0 +1,76 @@
+
+html {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: hotpink;
+}
+
+* {
+    box-sizing: border-box;}
+
+#text    {
+    font-size: 12;
+    color: green;
+    display: grid;
+    display: flex;
+    grid-row-start: 2;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    flex-direction: row;
+    align-content: flex-start;
+}
+#peace {
+    font-size: 50pt;
+    color: blue;
+    display: grid;
+    display: flex;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+   
+}
+
+.inhalt {
+    display: grid;
+    grid-template-rows: 20vh 20vh 5vh 5vh 5vh 5vh 40vh;
+    grid-template-columns: 5vw  30vw 30vw 30vw 5vw;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: grid;
+
+
+    height: 20vh;
+  width: 100vw;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    flex-direction: row;
+}
+#bild{ 
+    width: auto;
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    flex-direction: row;
+}
+#drowning {
+    width: auto;
+    display: grid;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    flex-direction: row;
+}
