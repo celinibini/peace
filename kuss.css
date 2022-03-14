@@ -13,7 +13,7 @@ position: fixed;
   grid-template-columns:20vw 10vw 5vw 10vw 5vw 1vw 4vw 4vw 1vw 10vw 10vw 10vw 10vw;
   grid-template-rows:  10vh 10vh 5vh  10vh 10vh  10vh 5vh 10vh 10vh ;
   font:#095628;
-  background-image: url(blumen.jpg);
+  background-image: url(blumen.png);
   background-size: 100vw, 100vh;
   background-position: center;
   background-position: fixed;
