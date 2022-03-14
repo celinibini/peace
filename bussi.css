@@ -1,0 +1,129 @@
+html {
+    width:100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+
+body {
+    display:grid;
+
+    grid-template-columns:20vw 10vw 5vw 10vw 5vw 1vw 4vw 4vw 1vw 10vw 10vw 10vw 10vw;
+    grid-template-rows:  10vh 10vh 5vh  10vh 10vh  10vh 5vh 10vh 10vh ;
+    font:#095628;
+    background-image: url(blumen.jpg);
+    background-size: 100vw, 100vh;
+    background-position: center;
+    background-color: pink;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#rahmen{
+    max-height: 35vh;
+    width:30vw;
+    display: grid;
+    grid-column-start: 2;
+   grid-column-end:5;
+   grid-row-start: 2;
+   grid-row-end:4;
+   display: flex;
+   z-index: 0;
+}
+
+#tisch{
+    max-height: 80vh;
+    width: 55vw;
+    display: grid;
+    grid-column-start: 5;
+   grid-column-end:13;
+   grid-row-start: 6;
+   grid-row-end:10;
+   display: flex;
+}
+
+#fern{
+    max-width: 10vw;
+    display: grid;
+    grid-column-start: 6;
+   grid-column-end:9;
+   grid-row-start: 7;
+   grid-row-end:10;
+}
+.tv{
+    
+    display: grid;
+    grid-column-start: 10;
+   grid-column-end:10;
+   grid-row-start: 4;
+   grid-row-end:9;
+   position: relative;
+   width: 30vw;
+   z-index: 1;
+}
+
+#sessel{
+    width: 40vw;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end:9;
+    grid-row-start: 6;
+    grid-row-end:10;
+}
+
+.oben
+{
+    
+    display: grid;
+    grid-column-start: 10;
+   grid-column-end:10;
+   grid-row-start: 4;
+   grid-row-end:9;
+   position: relative;
+   width: 30vw;
+}
+.über
+{
+    
+    display: grid;
+    grid-column-start: 1;
+   grid-column-end:2;
+   grid-row-start: 1;
+   grid-row-end:9;
+   position: relative;
+   width: 15vw;
+}
+.frau{
+    width: 40vw ;
+    display: grid;
+    grid-column-start: 3;
+   grid-column-end:6;
+   grid-row-start: 1;
+   grid-row-end:9;
+   z-index: 2;
+}
+.rose{
+    z-index: 2;
+    width: 10vw;
+    display: grid;
+    grid-column-start: 11;
+   grid-column-end:12;
+   grid-row-start: 4;
+   grid-row-end:9;
+   margin-top: 10vh;
+   margin-left: 35vw;
+}
+.messer{
+
+width: 10vw;
+display: grid;
+grid-column-start: 11;
+grid-column-end:12;
+grid-row-start: 4;
+grid-row-end:9;
+margin-top:50vh;
+margin-left: 30vw;
+z-index: 2;
+}
